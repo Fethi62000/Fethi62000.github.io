@@ -7,6 +7,8 @@
 </head>
 <h1>My cat is <strong>very</strong>sad</h1>
 <h2>My dog is very strong</h2>
+<h3> My rabbit in very hungry and beautyfull</h3>
+
 <img
   src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" />
 <img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" width="50%" alt="GitHub-logo" /> 
