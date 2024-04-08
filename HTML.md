@@ -10,7 +10,7 @@
 <img
   src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" />
 <img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" width="50%" alt="GitHub-logo" /> 
-
+<!-- Hello its my first use in HTML in Simplon Lens -->
 <div class="playable-buttons">
     <input id="reset" type="button" value="Réinitialiser" />
     <input id="solution" type="button" value="Voir la solution" />
