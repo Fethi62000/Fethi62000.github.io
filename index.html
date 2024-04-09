@@ -149,34 +149,50 @@
             <option value="2021">2021</option>
             <option value="2022">2022</option>
             <option value="2023">2023</option>
-         </selec>
-     <label for="date">Date de naissance:</label>
-         <input type="radio" name="sexe" value="Homme"> Homme
-         <input type="radio" name="sexe" value="Femme"> Femme
-         <input type="radio" name="sexe" value="Autre"> Autre
-     </label><br><br>
-
+         </selec><br><br>
+     <label for="sexe">Sexe :</label>
+        <input type="radio" id="homme" name="sexe" value="homme">
+     <label for="homme">Homme</label>
+        <input type="radio" id="femme" name="sexe" value="femme">
+     <label for="femme">Femme</label><br><br>
      <label for="mail">Adresse mail:</label>
          <input type="mail" name="mail" placeholder="Adresse mail"><br><br>   
      <label for="adresse postale">Adresse postale:</label>
          <input type="text" name="adresse postale" placeholder="Adresse postale"><br><br>
-     <label for="code postale">Code postale:</label>
-         <input type="text" name="code postal" placeholder="Code postale"><br><br>
+     <label for="code postal">Code postal:</label>
+         <input type="text" name="code postal" placeholder="Code postal"><br><br>
      <label for="ville">Ville:</label>
      <input type="text" name="ville" placeholder="Ville"><br><br>
      <label for="job">Métier exercé:</label>
      <select name="job" id="job">
-         <option value="Développeur front-end ">Développeur back-end </option>
+         <option value="Développeur front-end ">Développeur front-end </option>
          <option value="Développeur back-end ">Développeur back-end </option>
          <option value="Concepteur UX/UI ">Concepteur UX/UI </option>
          <option value="Développeur WordPress ">Développeur WordPress </option>
          <option value="Chef de projet ">Chef de projet </option>
          <option value="Autre">Autre</option>
      </select><br><br>
-     
+     <label for="Nationality">Nationalité:</label>
+     <select name="job" id="job">
+         <option value="Française ">Française </option>
+         <option value="Développeur back-end ">européenne</option>
+         <option value="Concepteur UX/UI ">non européenne</option>
+         <option value="Autre">Autre</option>
+     </select><br><br>
+     <label for="native country">Pays de naissance:</label>
+     <select name="country" id="country">
+         <option value="France">France </option>
+         <option value="pays européen">pays européen</option>
+         <option value="pays non européen ">pays non européen</option>
+     </select><br><br>
+     <label for="social Security number" >Sécurité sociale:</label>
+     <input type="text" name="social Security number" placeholder="Sécurité sociale" maxlength="13" pattern="[0-13]{13}"requiered><br><br>
+    
+    
 </form>  </center>  
 </body>
 </html>
+
 
   
   
